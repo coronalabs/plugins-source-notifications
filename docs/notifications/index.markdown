@@ -21,9 +21,9 @@ Gives access to local and push notifications
 
 #### [notifications.registerForPushNotifications()][plugin.notifications.registerForPushNotifications]
 
-#### [notifications.cancelNotification()][plugin.adrally-TEMP.cancelNotification]
+#### [notifications.cancelNotification()][plugin.notifications.cancelNotification]
 
-#### [notifications.scheduleNotification()][plugin.adrally-TEMP.scheduleNotification]
+#### [notifications.scheduleNotification()][plugin.notifications.scheduleNotification]
 
 ## Project Settings
 
