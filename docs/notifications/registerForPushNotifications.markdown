@@ -1,13 +1,13 @@
 # notifications.registerForPushNotifications()
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Function][api.type.Function]
-> __Library__           [notifications.*][plugin.notifications]
-> __Return value__      none
-> __Revision__          [REVISION_LABEL](REVISION_URL)
-> __Keywords__          notification, notifications
-> __See also__          [Local/Push Notifications][guide.events.appNotification]
->                        [notifications.scheduleNotification()][plugin.notifications.scheduleNotification]
+> __Type__				[Function][api.type.Function]
+> __Library__			[notifications.*][plugin.notifications]
+> __Return value__		none
+> __Revision__			[REVISION_LABEL](REVISION_URL)
+> __Keywords__			notification, notifications
+> __See also__			[Local/Push Notifications][guide.events.appNotification]
+>						[notifications.scheduleNotification()][plugin.notifications.scheduleNotification]
 > --------------------- ------------------------------------------------------------------------------------------
 
 
