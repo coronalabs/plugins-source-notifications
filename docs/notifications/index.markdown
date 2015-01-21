@@ -41,3 +41,20 @@ settings =
     },      
 }
 ``````
+
+## Enterprise
+
+On iOS the following has to be added to the build.settings:
+
+``````lua
+settings = 
+{
+	iphone =
+	{
+		plist =
+		{
+			CoronaDelegates = {"CoronaNotificationsDelegate"}
+		},
+	},
+}
+``````
