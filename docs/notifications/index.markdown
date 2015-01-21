@@ -1,16 +1,16 @@
 # notifications.*
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Library][api.type.library]
-> __Revision__          [REVISION_LABEL](REVISION_URL)
-> __Keywords__          notification, notifications
-> __Availability__      Starter, Basic, Pro, Enterprise
-> __Platforms__         Android, iOS
+> __Type__				[Library][api.type.library]
+> __Revision__			[REVISION_LABEL](REVISION_URL)
+> __Keywords__			notification, notifications
+> __Availability__		Starter, Basic, Pro, Enterprise
+> __Platforms__			Android, iOS
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
 
-Gives access to local and push notifications
+Gives access to local and push notifications.
 
 ## Syntax
 
