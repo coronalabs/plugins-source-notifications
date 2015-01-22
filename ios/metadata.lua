@@ -6,7 +6,7 @@ local metadata =
 		staticLibs = { 'notifications' },
 		frameworks = { },
 		frameworksOptional = {},
-		CoronaDelegates = { "CoronaNotificationsDelegate" }
+		delegates = { "CoronaNotificationsDelegate" }
 	},
 }
 
