@@ -158,6 +158,11 @@ registerForPushNotifications( lua_State *L )
 	
 	int top = lua_gettop( L );
 	
+	lua_getglobal( L, "package" );
+	lua_getfield( L, -1, "loaded" );
+	lua_getfield( L, -1, "config" );
+	int type = lua_type( L, -1 );
+	
 	lua_getglobal( L, "require" );
 	lua_pushstring( L, "config" );
 	lua_call( L, 1, 0 );
@@ -189,8 +194,18 @@ registerForPushNotifications( lua_State *L )
 		}
 	}
 	
-	lua_pushnil( L );
-	lua_setglobal( L, "application" );
+	// Clean up so that if the require("config") was already called it won't wipe that out
+	if ( type == LUA_TNIL )
+	{
+		// application = nil
+		lua_pushnil( L );
+		lua_setglobal( L, "application" );
+		// package.loaded.config = nil
+		lua_getglobal( L, "package" );
+		lua_getfield( L, -1, "loaded" );
+		lua_pushnil( L );
+		lua_setfield( L, -2, "config" );
+	}
 	
 	if ( UIRemoteNotificationTypeNone != types )
 	{
