@@ -21,4 +21,3 @@ Install [CoronaSDK](http://coronalabs.com/products/corona-sdk/) or [CoronaEnterp
 
 * [Corona Enterprise](http://docs.coronalabs.com/native/)
 * [API Reference](http://docs.coronalabs.com/plugin/notifications/index.html)
-* [Sample Code](GIT_URL/samples)
